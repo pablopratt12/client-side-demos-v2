@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const galleryTitle = document.getElementById("galleryTitle");
+    const rainbowTitle = document.getElementById("rainbow");
     const rainbowBtn = document.getElementById("rainbowBtn");
 
-    if (rainbowBtn && galleryTitle) {
+    if (rainbowBtn && rainbowTitle) {
         rainbowBtn.addEventListener("click", () => {
-            galleryTitle.classList.toggle("rainbow");
+            rainbowTitle.classList.toggle("rainbow");
         });
     } else {
         console.error("❌ Rainbow button or title not found.");
